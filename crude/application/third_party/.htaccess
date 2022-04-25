@@ -1,0 +1,5 @@
+RewriteEngine one
+RewriteCond %{REQUEST8FILENAME} !-f
+RewriteCond %{REQUEST8FILENAME} !-d
+RewriteRule ^(.*)index.php/$1 [L,QSA]
+application->config->$conig['index_page']
